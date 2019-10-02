@@ -18,7 +18,7 @@ See the [Browser Compatibility](../guide/browser-compatibility.md#browserslist) 
 
 ## vue.config.js
 
-`vue.config.js` is an optional config file that will be automatically loaded by `@vue/cli-service` if it's present in your project root (next to `package.json`). You can also use the `vue` field in `package.json`, but do note in that case you will be limited to JSON-compatible values only.
+`vue.config.js` is an optional config file that will be automatically loaded by `@vue/cli-service` if it's present in your project root (next to `package.json`). If it's not you can also create a `vue.config.js` file at your project root with the below code template or use the `vue` field in `package.json`, but do note in that case you will be limited to JSON-compatible values only.
 
 The file should export an object containing options:
 
